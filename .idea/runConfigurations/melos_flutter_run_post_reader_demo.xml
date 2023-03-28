@@ -1,6 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Flutter Run -&gt; 'post_reader_demo'" type="FlutterRunConfigurationType" factoryName="Flutter">
-    <option name="filePath" value="$PROJECT_DIR$/post_reader_demo/lib/main.dart" />
-    <method v="2" />
-  </configuration>
-</component>
