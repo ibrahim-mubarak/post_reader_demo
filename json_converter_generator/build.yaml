@@ -1,0 +1,17 @@
+targets:
+  $default:
+    builders:
+      json_converter_generator|json_converter_generator_annotation:
+        enabled: true
+
+builders:
+  json_converter_generator:
+    target: ":json_converter_generator"
+    import: "package:json_converter_generator/builder.dart"
+    builder_factories: [ "generateConverters" ]
+    build_extensions: { ".dart": [ ".g.dart" ] }
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: [ "source_gen|combining_builder" ]
+    runs_before: ["json_serializable|json_serializable"]
+

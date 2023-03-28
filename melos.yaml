@@ -1,0 +1,4 @@
+name: objectbox_json_converter
+
+packages:
+  - ./*

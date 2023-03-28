@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/json_converter_generator/melos_json_converter_generator.iml" filepath="$PROJECT_DIR$/json_converter_generator/melos_json_converter_generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/json_converter_generator_annotation/melos_json_converter_generator_annotation.iml" filepath="$PROJECT_DIR$/json_converter_generator_annotation/melos_json_converter_generator_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/post_reader_demo/melos_post_reader_demo.iml" filepath="$PROJECT_DIR$/post_reader_demo/melos_post_reader_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_objectbox_json_converter.iml" filepath="$PROJECT_DIR$/melos_objectbox_json_converter.iml" />
+    </modules>
+  </component>
+</project>

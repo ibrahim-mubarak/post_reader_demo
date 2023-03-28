@@ -1,0 +1,109 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "3:5456985152650252687",
+      "lastPropertyId": "4:1297230699186238993",
+      "name": "Post",
+      "properties": [
+        {
+          "id": "1:5595771742369588256",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:2758233705599097731",
+          "name": "userId",
+          "type": 6
+        },
+        {
+          "id": "3:8806936101127853642",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "4:1297230699186238993",
+          "name": "body",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "6:6953907699878551325",
+      "lastPropertyId": "5:997875092568043186",
+      "name": "Comment",
+      "properties": [
+        {
+          "id": "1:6801765435865938618",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:1447837045491908501",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:476847431795563934",
+          "name": "email",
+          "type": 9
+        },
+        {
+          "id": "4:943332455551372710",
+          "name": "body",
+          "type": 9
+        },
+        {
+          "id": "5:997875092568043186",
+          "name": "postId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "4:3539896463880157731",
+          "relationTarget": "Post"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "6:6953907699878551325",
+  "lastIndexId": "4:3539896463880157731",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    5723145587746072518,
+    772198180307843669,
+    6883984337284559468,
+    4033227386906804569
+  ],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    1334015032984150267,
+    4635294532061093798,
+    3293757496977474701,
+    77477834869488484,
+    857801821245367081,
+    3282593531382894774,
+    1578006509080687447,
+    3726465472600193836,
+    4436174140294573244,
+    8995498577182581263,
+    6489797996520761742,
+    4804471008356397120,
+    6978530253635461311,
+    7272770192560136100,
+    6750891436211651120,
+    7414298791342699346,
+    2511388091888523832,
+    720382805766059921,
+    3604521083607683738
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

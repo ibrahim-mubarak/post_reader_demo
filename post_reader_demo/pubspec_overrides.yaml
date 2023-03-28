@@ -1,0 +1,6 @@
+# melos_managed_dependency_overrides: json_converter_generator,json_converter_generator_annotation
+dependency_overrides:
+  json_converter_generator:
+    path: ../json_converter_generator
+  json_converter_generator_annotation:
+    path: ../json_converter_generator_annotation
