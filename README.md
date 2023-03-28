@@ -7,4 +7,3 @@ It uses the following libraries:
 - [Objectbox](https://pub.dev/packages/objectbox) - A fast, lightweight, and robust object database for Dart and Flutter.
 
 It also uses a custom generator to generate forJson an toJson methods for the Relation Models of ObjectBox
-# post_reader_demo
