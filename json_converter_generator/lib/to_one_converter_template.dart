@@ -19,7 +19,7 @@ class ToOneJsonConverterTemplate {
 
   String get fromJsonBody => '''ToOne<$className>(
       target: json == null ? null : $className.fromJson(json),
-      targetId: json?['id'] as int?,
+      // targetId: json?['id'] as int?,
     )''';
 
   String get toJsonBody => 'rel.target?.toJson()';

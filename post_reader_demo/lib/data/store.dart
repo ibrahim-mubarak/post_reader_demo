@@ -19,6 +19,7 @@ class ObjectBox {
     final Store store = await openStore(
       directory: p.join(docsDir.path, "ob-example"),
     );
+
     return ObjectBox._create(store);
   }
 }
